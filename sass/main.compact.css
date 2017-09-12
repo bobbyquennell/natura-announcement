@@ -81,6 +81,8 @@ html, body { height: 80%; margin: 0; padding: 0; }
 
 .lp-container header { position: relative; background: url("../images/bg_header.jpg") no-repeat; background-size: contain; }
 
+.lp-container header.lp { padding: 0; }
+
 .lp-container header article { padding-top: 30%; }
 
 .lp-container img.header-img { width: 100%; }
@@ -212,9 +214,9 @@ html, body { height: 80%; margin: 0; padding: 0; }
 
 .lp-story { padding: 2% 4%; line-height: 1.5; }
 
-@media only screen and (max-width: 60em) { .lp-story { padding: 5%; } }
+@media only screen and (max-width: 60em) { .lp-story { padding: 1% 5%; } }
 
-.lp-story h4 { color: #231f20; font-family: "Interstate-BoldCond", sans-serif; font-size: 15px; font-size: 0.9375rem; margin: 3% auto; text-transform: none; }
+.lp-story h4 { color: #231f20; font-family: "Interstate-BoldCond", sans-serif; font-size: 30px; margin: 1% auto 0; text-transform: none; }
 
 .lp-story p { margin: 1% auto; padding-top: 1%; }
 

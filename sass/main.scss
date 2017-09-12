@@ -97,6 +97,9 @@ body {
     position: relative;
     background: url("../images/bg_header.jpg") no-repeat;
     background-size: contain;
+    &.lp {
+      padding: 0;
+    }
     article {
       padding-top: 30%;
       //min-height:400px;
@@ -433,14 +436,14 @@ body {
 .lp-story {
   padding: 2% 4%;
   @include bp-large {
-    padding: 5%;
+    padding: 1% 5%;
   };
   line-height: 1.5;
   h4 {
     color: $black;
     font-family: $font-boldcond;
-    @include font-size(15px);
-    margin: 3% auto;
+    font-size: 30px;
+    margin: 1% auto 0;
     text-transform:none;
   }
   p {
